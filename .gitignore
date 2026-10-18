@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# SQLite and local storage
+*.sqlite
+*.sqlite3
+*.db
+backend/app/storage/data/
+storage/data/
+
+# Local models (strict local storage, excluded from git)
+models/
+*.gguf
+*.bin
+*.onnx
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and environment variables
+*.log
+.env
+.env.*
+
+# Private & session data
+data/private/
+temp/
+scratch/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
